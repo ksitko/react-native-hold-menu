@@ -57,17 +57,4 @@ export type HoldItemProps = {
    * bottom={true}
    */
   bottom?: boolean;
-
-  /**
-   * Set if you'd like a different tap activation
-   * @type string
-   * @default 'hold'
-   * @examples
-   * activateOn="hold"
-   */
-  activateOn?: 'tap' | 'double-tap' | 'hold';
-};
-
-export type GestureHandlerProps = {
-  children: React.ReactElement | React.ReactElement[];
 };
